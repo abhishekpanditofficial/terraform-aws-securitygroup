@@ -7,3 +7,6 @@ output "vpc_cidr_block" {
 output "security_group_arn" {
     value= module.terraform_aws_securitygroup.security_group_arn
 }
+output "security_vpc_id" {
+    value= module.terraform_aws_securitygroup.security_vpc_id
+}
